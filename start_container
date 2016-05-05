@@ -3,4 +3,7 @@
 git clone $GIT_URL $PROJECT_PATH
 cd $PROJECT_PATH
 bundle install
+if [ "$PRECOMPILE" = "true" ]
+  rake assets:precompile
+fi
 $START_CMD

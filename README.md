@@ -12,3 +12,5 @@ Environment variables
   - Project path root (e.g. `/var/myapp`)
 * `START_CMD`
   - Command to initialize service (e.g. `rails s`)
+* `PRECOMPILE`
+  - Set to 'true' if you want to run `rake assets:precompile`
